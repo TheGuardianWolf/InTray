@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="YamlDotNet" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InTray.Lib\InTray.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ContextManagerOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ContextManagerOptionsForm.Designer.cs">
+      <DependentUpon>ContextManagerOptionsForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

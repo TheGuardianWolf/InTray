@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>InTray.Lib</id>
+    <version>1.0.0</version>
+    <title>InTray.Lib</title>
+    <authors>TheGuardianWolf</authors>
+    <owners>TheGuardianWolf</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/TheGuardianWolf/InTray/</projectUrl>
+    <description>Provides functionality to minimise applications to system tray.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright TheGuardianWolf 2020</copyright>
+    <tags>intray tray in notification icon minimise</tags>
+  </metadata>
+</package>
